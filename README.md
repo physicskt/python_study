@@ -81,21 +81,46 @@
 
 > 具体機種は好みでOK（例：軽量ノート/ビジネスノート）。店舗・価格は任意で選択してください。
 
-### 必須ソフトウェア
+### 2.2 必須ソフトウェア
 - **Python 3.13+**
 - **VS Code**
-    - 拡張機能：
-        - Gemini Code Assist
-        - indent-rainbow
-        - Rainbow CSV
-
+    - その他拡張機能（後述）
 - **Git** と **GitHubアカウント**（バージョン管理）
+- Cassava Editor
+    - Windows用の 軽量なCSV Editor。
 - ブラウザ：Chrome/Edge（Selenium/Playwrightで利用）
 
 ---
 
-## 2.2 環境構築（クイックスタート）
-1. Pythonインストール後、コマンドで確認
-   ```bash
+### 2.2.1 Python
+- ダウンロード元：
+    - https://www.python.org/downloads/
+- インストール流れ：
+    - https://qiita.com/Obataskill/items/4cfe0d4d8cec8a140b8e
+- インストール後確認：
+```bash
    python --version
    pip --version
+```
+
+### 2.2.2 VS Code
+- ダウンロード元：
+    - https://code.visualstudio.com/
+
+- インストール流れ：
+    - https://www602.math.ryukoku.ac.jp/Prog1/vscode-win.html
+
+- 拡張機能：
+    - 拡張機能の入れ方
+        - https://learn.microsoft.com/ja-jp/power-pages/configure/vs-code-extension
+    - 入れておくと良い拡張機能
+        - Japanse Language Pack for Visual Studio Code
+        - Github Copilot
+        - Github Copilot Chat
+        - Gemini Code Assist
+        - indent-rainbow
+        - Rainbow CSV
+
+# 2.2.3 Git, GitHub アカウント
+
+

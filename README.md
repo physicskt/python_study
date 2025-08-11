@@ -42,7 +42,8 @@
 - `requests`/`BeautifulSoup`での**静的ページの収集**、`Selenium`（または`Playwright`）での**動的ページの操作**ができる
 - `pandas`での**データ整形**、`openpyxl`や`gspread`での**Excel/スプレッドシート入出力**を実務に適用できる
 - `.env`による**認証情報管理**、`logging`による**ログ記録**、`retry/backoff`による**堅牢化**ができる
-- **Windowsタスクスケジューラ/cron**により、バッチを定期実行できる
+- setup.bat を使用し　.venv 環境の自動構築ができるようになる
+- soft_exe.bat を使用し、非エンジニアでもプログラムを実行できる
 
 ---
 
